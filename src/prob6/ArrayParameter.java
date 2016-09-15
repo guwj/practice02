@@ -19,10 +19,12 @@ public class ArrayParameter {
 	}
 
 	static void printCharArray( char a[] ) {
+		System.out.println(a);
 		
-		for(char i : a){
-			System.out.print(i);
-		}
+		
+//		for(char i : a){
+//			System.out.print(i);
+//		}
 		
 		System.out.println();
 	}

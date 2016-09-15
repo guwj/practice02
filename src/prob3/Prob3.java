@@ -12,7 +12,7 @@ public class Prob3 {
 
 		/* 나머지 코드를 구현합니다. */
 
-		char[] a = s.toCharArray(); // 새 배열을 만들어서 복사해서 리턴해주는 함수
+		char[] a = s.toCharArray(); // String을 새로운 문자 배열로 변환하는 메소드
 
 		for (int i = 0; i < a.length; i++) {
 			for (int j = 0 ; j <= i ; j++) {
